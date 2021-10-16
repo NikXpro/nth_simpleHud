@@ -5,7 +5,7 @@ A simple hud without dependency just gta native.
 ![HUD PREVIEW](https://cdn.discordapp.com/attachments/842450821194711040/898920214920568842/unknown.png)
 
 ## Installation:
-1. Extract th .zip or open it.
+1. Extract the .zip or open it.
 2. Place `nth_simpleHud` into your `resources` folder.
 3. Add `ensure nth_simpleHud` to your `server.cfg`
 
