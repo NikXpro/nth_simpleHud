@@ -24,3 +24,20 @@ Config.lifeRequest = function()
     return 50, 50 --The first is thirst and the seconde is hunger (Attention: This must return a percentage!)
 end
 ```
+### Exemple (ESX):
+I don't follow that there and need the "math.floor" I'm not testing, if it doesn't work remove it and just leave the "status.getPercent()"
+```lua
+Config.lifeRequest = function()
+    local thirst, hunger = nil, nil
+
+    TriggerEvent('esx_status:getStatus', 'thirst', function(status)
+        thirst = math.floor(100-status.getPercent())
+    end)
+
+    TriggerEvent('esx_status:getStatus', 'hunger', function(status)
+        hunger = math.floor(100-status.getPercent())
+    end)
+
+    return thirst, hunger
+end
+```
