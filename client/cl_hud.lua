@@ -7,7 +7,7 @@ local Defaultdata = { --Dont touch this !
         thirth = {x = 0.05095,y = 0.801001,width = 0.06925,height = 0.008334}
     },
     ["bottom"] = {
-        background = {x = 0.08666,y = 0.99673,width = 0.1406,height = 0.00397},
+        background = {x = 0.08666,y = 0.99170,width = 0.1406,height = 0.0140},
         hunger = {x = 0.1222,y = 0.98903,width = 0.06925,height = 0.008334},
         thirth = {x = 0.05095,y = 0.98903,width = 0.06925,height = 0.008334}
     }
