@@ -6,6 +6,8 @@ Config.Hunger = {r = 171, g = 108,b = 72} --RGB Color.
 
 Config.Thirth = {r = 72,  g = 137,b = 170} --RGB Color.
 
+Config.Position = "bottom" --Hud position ("top" or "bottom")
+
 Config.lifeRequest = function()
 
     --Insert your code here
